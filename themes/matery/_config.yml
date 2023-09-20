@@ -16,12 +16,12 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+  # Contact:
+  #   url: /contact
+  #   icon: fas fa-comments
+  # Friends:
+  #   url: /friends
+  #   icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -205,7 +205,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.png
   career: A geographer who also travels.
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: 宋爽在北京师范大学获得了地理科学博士学位后，成为了北京师范大学的博士后研究员，从事地理学研究。业余时间我是一位数字游民，在世界各地旅行，并从事开源项目的开发。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -214,55 +214,58 @@ myProjects:
   enable: true
   data:
     ABSESpy:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+      icon: fas fa-chess-board
+      iconBackground: 'linear-gradient(to bottom right, #222831 0%, #393E46 100%)'
+      url: https://github.com/SongshGeo/ABSESpy
+      desc: 用于快速构建模拟社会-生态系统的多主体建模框架。
+    mksci-font:
+        icon: fas fa-font
+        iconBackground: 'linear-gradient(to bottom right, #222831 0%, #393E46 100%)'
+        url: https://github.com/SongshGeo/mksci-font
+        desc: 用于方便地将 Matplotlib 支持中文字体，从而配置学术图表为“中文宋体、英文 Times New Roman”。
+    Obsidian-PaperBell:
+        icon: fas fa-bookmark
+        iconBackground: 'linear-gradient(to bottom right, #222831 0%, #393E46 100%)'
+        url: https://github.com/SongshGeo/Obsidian-PaperBell
+        desc: 用于追踪你学术生涯的Obsidian模板仓库。
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
-mySkills:
-  enable: false
-  data:
-    Java:
-      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 85%
-    JavaScript:
-      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 80%
-    HTML5:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
-    CSS:
-      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
-    SQL:
-      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
-    程序设计:
-      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 75%
+# mySkills:
+#   enable: true
+#   data:
+#     Python:
+#       background: 'linear-gradient(to right, #222831 0%, #393E46 100%)'
+#       percent: 90%
+#     LaTeX:
+#       background: 'linear-gradient(to right, #222831 0%, #393E46 100%)'
+#       percent: 80%
+#     HTML5:
+#       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+#       percent: 80%
+#     CSS:
+#       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+#       percent: 70%
+#     SQL:
+#       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
+#       percent: 90%
+#     程序设计:
+#       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
+#       percent: 75%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - /medias/gallery/0.jpeg
+    - /medias/gallery/1.jpeg
+    - /medias/gallery/2.jpeg
+    - /medias/gallery/3.jpeg
+    - /medias/gallery/4.jpeg
+    - /medias/gallery/5.jpeg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -544,7 +547,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: false
+  enable: true
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
