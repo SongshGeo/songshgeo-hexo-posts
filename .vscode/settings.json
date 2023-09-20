@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "project",
-        "posts"
+        "posts",
+        "theme"
     ]
 }
