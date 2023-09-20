@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 隅地
+subtitle: 'Shuang (Twist) Song'
+description: 'A geographer who also travels.'
 keywords:
-author: John Doe
-language: en
+author: Shuang (Twist) Song
+language: ch
 timezone: ''
 
 # URL
@@ -103,3 +103,13 @@ theme: matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 文章题目链接转拼音
+permalink_pinyin:
+  enable: true
+  separator: '_' # default: '-'
+
+# 搜索文章内容
+search:
+  path: search.xml
+  field: post
