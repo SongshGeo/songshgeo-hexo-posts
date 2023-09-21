@@ -7,3 +7,6 @@ public/
 .deploy*/
 _multiconfig.yml
 .obsidian
+# https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
+# 使用workflow进行自动部署应该
+.vercel
