@@ -1,6 +1,6 @@
 # Shuang (Twist) Song 的主页
 
-欢迎访问我的[个人博客主页](songshgeo.com)!
+欢迎访问我的[个人博客主页](https://songshgeo.com)!
 
 随笔内容同步更新到个人公众号“隅地”：
 
