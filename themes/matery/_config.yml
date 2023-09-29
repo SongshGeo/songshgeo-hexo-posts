@@ -124,9 +124,9 @@ logo: /medias/logo.png
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
   enable: true
-  name: Github
-  icon: fab fa-github-alt
-  url: https://github.com/SongshGeo
+  name: 科研主页
+  icon: fa-regular fa-earth-asia
+  url: https://cv.songshgeo.com
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -205,7 +205,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.png
   career: A geographer who also travels.
-  introduction: 宋爽在北京师范大学获得了地理科学博士学位后，成为了北京师范大学的博士后研究员，从事地理学研究。业余时间我是一位数字游民，在世界各地旅行，并从事开源项目的开发。
+  introduction: "宋爽在北京师范大学获得了地理科学博士学位后，成为了北京师范大学的博士后研究员，从事地理学研究。业余时间，我是一位数字游民，在世界各地旅行，并从事开源项目的开发。"
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
