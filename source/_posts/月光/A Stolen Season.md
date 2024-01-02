@@ -10,7 +10,7 @@ tags:
 - 旅行
 - 厄瓜多尔
 
-top: true
+top: false
 hide: false
 cover: true
 coverImg:
