@@ -10,3 +10,5 @@ _multiconfig.yml
 # https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
 # 使用workflow进行自动部署应该
 .vercel
+.smtcmp_chat_histories
+*.tar.gz
