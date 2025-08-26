@@ -69,6 +69,10 @@ dream:
   title: Zen
   text: 一个人应该能够给孩子换尿布、计划一次侵略行动、杀猪、驾驶飞船、设计建筑物、写诗、做会计账目、砌墙、接合断骨、照顾临终者、执行命令、下达命令、与人合作、独立行动、解方程式、分析一个新问题、施肥、编程、做一餐美味的饭、高效地战斗、勇敢地死去。  ——罗伯特·海因莱恩
 
+markdown:
+  plugins:
+    - markdown-it-footnote
+
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
@@ -205,7 +209,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.png
   career: A geographer who also travels.
-  introduction: "宋爽在北京师范大学获得了地理科学博士学位后，成为了北京师范大学的博士后研究员，从事地理学研究。业余时间，我是一位数字游民，在世界各地旅行，并从事开源项目的开发。"
+  introduction: "宋爽是地理学者，也是数字游民，在世界各地旅行，并从事开源项目的开发。"
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
