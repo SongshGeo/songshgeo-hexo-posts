@@ -12,3 +12,4 @@ _multiconfig.yml
 .vercel
 .smtcmp_chat_histories
 *.tar.gz
+album/
