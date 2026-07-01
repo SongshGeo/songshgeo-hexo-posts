@@ -536,7 +536,6 @@ summary: This is the content of your custom post summary. If there is a value fo
 categories: Markdown
 tags:
   - Typora
-  - Markdown
 ---
 ```
 
